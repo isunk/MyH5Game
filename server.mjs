@@ -3,7 +3,7 @@ import { readFile, stat } from 'fs/promises';
 import { join, normalize, extname } from 'path';
 import { fileURLToPath } from 'url';
 
-const ROOT = '/workspace/fly-game';
+const ROOT = '/workspace';
 const PORT = process.env.PORT || 4173;
 
 const MIME = {
